@@ -347,7 +347,7 @@ const ConnectButton = ({ currentAccount, connectWalletAction }) => {
                 color={'white'}
                 bgGradient={'linear(to-r, #7928CA, #FF0080)'}
                 _hover={{
-                    bg: 'linear(to-1, #FF0080, #7928CA)',
+                    bgGradient: 'linear(to-l, #E0067A, #7928CA)',
                 }}
                 >{`${currentAccount.substring(0, 5)}...${currentAccount.substring(currentAccount.length - 4)}`}</Button>
             ) : (
@@ -359,7 +359,7 @@ const ConnectButton = ({ currentAccount, connectWalletAction }) => {
                 color={'white'}
                 bgGradient={'linear(to-r, #7928CA, #FF0080)'}
                 _hover={{
-                    bg: 'linear(to-1, #FF0080, #7928CA)',
+                    bgGradient: 'linear(to-l, #E0067A, #7928CA)',
                 }}
                 onClick={connectWalletAction}
                 >Connect</Button>

@@ -6,6 +6,7 @@ import {
   Text,
   Button,
   Stack,
+  chakra,
   Icon,
   useColorModeValue,
   createIcon,
@@ -52,18 +53,20 @@ export default function Hero() {
                         alignSelf={'center'}
                         position={'relative'}
                     >
-                        <Button
-                            colorScheme={'blue'}
-                            fontWeight={'bold'}
-                            bg={'#FF0080'}
-                            rounded={10}
-                            px={6}
-                            _hover={{
-                                bg: '#E60073'
-                            }}
-                        >
-                            Tournaments
-                        </Button>
+                        <chakra.a href='/tournament'>
+                            <Button
+                                colorScheme={'purple'}
+                                fontWeight={'bold'}
+                                bg={'#FF0080'}
+                                rounded={10}
+                                px={6}
+                                _hover={{
+                                    bg: '#E60073'
+                                }}
+                            >
+                                Tournaments
+                            </Button>
+                        </chakra.a>
                     </Stack>
                 </Stack>
             </Container>

@@ -28,6 +28,7 @@ const SocialButton = ({
             justifyContent={'center'}
             transition={'background 0.3s ease'}
             rounded={10}
+            colorScheme={'purple'}
             _hover={{
                 bg: '#E60073'
             }}

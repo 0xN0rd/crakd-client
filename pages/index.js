@@ -81,6 +81,12 @@ export default function Home() {
         <Head>
           <title>Crakd</title>
           <meta name="description" content="Welcome to the gaming revolution!" />
+          <meta property="og:image" content="https://i.imgur.com/DgCanAu.png" />
+          <meta property="og:url" content="https://crakd.gg" />
+          <meta property="twitter:title" content="Crakd" />
+          <meta property="twitter:description" content="Welcome to the gaming revolution!" />
+          <meta property="twitter:image" content="https://i.imgur.com/DgCanAu.png" />
+          <meta property="twitter:url" content="https://crakd.gg" />
           <link rel="icon" href="/favicon.ico" />
           <link
               href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"

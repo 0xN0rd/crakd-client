@@ -342,24 +342,24 @@ const ConnectButton = ({ currentAccount, connectWalletAction }) => {
             {currentAccount ? (
                 <Button
                 display={{ base: 'none', md: 'inline-flex' }}
-                fontSize={'sm'}
-                fontWeight={600}
+                fontSize={'md'}
+                fontWeight={700}
                 color={'white'}
                 bgGradient={'linear(to-r, #7928CA, #FF0080)'}
                 _hover={{
-                    bg: 'blue.300',
+                    bg: 'linear(to-1, #FF0080, #7928CA)',
                 }}
                 >{`${currentAccount.substring(0, 5)}...${currentAccount.substring(currentAccount.length - 4)}`}</Button>
             ) : (
                 <Button
                 display={{ base: 'none', md: 'inline-flex' }}
                 rounded={10}
-                fontSize={'sm'}
-                fontWeight={600}
+                fontSize={'md'}
+                fontWeight={700}
                 color={'white'}
                 bgGradient={'linear(to-r, #7928CA, #FF0080)'}
                 _hover={{
-                    bg: 'linear(to-1, #7928CA, #FF0080)',
+                    bg: 'linear(to-1, #FF0080, #7928CA)',
                 }}
                 onClick={connectWalletAction}
                 >Connect</Button>

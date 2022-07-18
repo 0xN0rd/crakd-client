@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: #1e1e1c;
 }
 
 .main {
@@ -16,9 +17,10 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgba(224, 224, 227, 0.2);
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .footer a {
@@ -33,6 +35,53 @@
   text-decoration: none;
 }
 
+.title span {
+  background-image: linear-gradient(169deg, #6699ff 0%, #5e5df0 50%, #ff3366 100%);
+  background-size: 200% 200%;
+  text-decoration: none;
+  background-clip: text;
+  box-decoration-break: clone;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+  animation: gradient-animation 4s ease infinite;
+}
+
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -43,6 +92,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: white;
 }
 
 .title,
@@ -54,10 +104,12 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: white;
 }
 
 .code {
   background: #fafafa;
+  color: black;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -77,6 +129,22 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
+  background-image: url("https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Ftypedream-assets.sfo3.digitaloceanspaces.com%2Fillustrations%2Fgradients%2Fhue-6.gif&w=2048&q=75");
+  background-color: #cccccc;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.cardsecondary {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background-image: url("https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Ftypedream-assets.sfo3.digitaloceanspaces.com%2Fillustrations%2Fgradients%2Fhue-9.gif&w=2048&q=75");
+  background-color: #cccccc;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
@@ -95,12 +163,14 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  color: white;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: white;
 }
 
 .logo {
@@ -113,4 +183,17 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.intro {
+  width: 800px;
+  max-width: min(100%, 800px);
+  color: #f4f4f7;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.intro span {
+  display: inline-block;
 }

@@ -79,7 +79,7 @@ export default function Home() {
       <Nav />
       <div className={styles.container}>
         <Head>
-          <title>🕹 Crakd</title>
+          <title>Crakd</title>
           <meta name="description" content="Welcome to the gaming revolution!" />
           <link rel="icon" href="/favicon.ico" />
           <link

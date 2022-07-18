@@ -359,7 +359,7 @@ const ConnectButton = ({ currentAccount, connectWalletAction }) => {
                 color={'white'}
                 bgGradient={'linear(to-r, #7928CA, #FF0080)'}
                 _hover={{
-                    bg: 'blue.300',
+                    bg: 'linear(to-1, #7928CA, #FF0080)',
                 }}
                 onClick={connectWalletAction}
                 >Connect</Button>

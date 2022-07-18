@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import LoadingIndicator from '../components/LoadingIndicator';
 import { CONTRACT_ADDRESS } from '../constants';
 import crakd from '../utils/CrakdTournament.json';
-import { chakra } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const EnterTournament = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -130,9 +130,9 @@ const EnterTournament = () => {
                     </div>
                 </div>
             )}
-            <chakra.a href="/tournament">
+            <Link href="/tournament">
                 <button type="button" className="go-button">Go to Tournament</button>
-            </chakra.a>
+            </Link>
         </div>
     )
 }

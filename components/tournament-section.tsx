@@ -197,7 +197,7 @@ export default function TournamentSection({ tournament }: Props) {
                     <div className={styles.resources}>
                         <h2 className={styles.heading}>Leaderboard</h2>
                         {USERS.map(user => (
-                            <button className={cn(styles.button, styles['button-resource'])}>
+                            <button className={cn(styles.button, styles['button-resource'])} key="user">
                                 <span className={styles.truncate}>{user.gamertag}</span>
                                 <span>: {user.score}</span>
                             </button> 

@@ -63,7 +63,7 @@ export default function TournamentPage() {
         <Page meta={meta}>
             <Layout>
                 {TOURNAMENT.map(tournament => (
-                    <TournamentSection tournament={tournament} />
+                    <TournamentSection tournament={tournament} key="tournament" />
                 ))}
             </Layout>
         </Page>

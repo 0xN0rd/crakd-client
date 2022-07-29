@@ -12,7 +12,7 @@ export function CreatedByCrakd() {
             rel="noopener noreferrer"
         >
             <div className={styles['secondary-text']}>Created by </div>
-            <CrakdLogo />
+            <CrakdLogo color={'#fff'} />
         </a>
     );
 }

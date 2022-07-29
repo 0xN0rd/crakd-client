@@ -34,7 +34,7 @@ export default function Feature() {
                     <div className={cn(styles['section-container'], styles['section-description-wrapper'])}>
                         <div className={cn(styles['section-container'])}>
                             <p className={cn(styles['paragraph'], styles['paragraph-medium'], styles['paragraph-secondary'])}>
-                                You don't have to be a pro to win money playing League. Popping off in one game can send you to the top of the leaderboard.
+                                You don&apos;t have to be a pro to win money playing League. Popping off in one game can send you to the top of the leaderboard.
                             </p>
                         </div>
                     </div>

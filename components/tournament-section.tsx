@@ -53,7 +53,7 @@ const USERS = [
 export default function TournamentSection({ tournament }: Props) {
     const [isOpen, setIsOpen] = useState(false);
     const [inputValue, setInputValue] = useState('');
-    const [contract, setContract] = useState(null);
+    const [contract, setContract] = useState<any>(null);
     const [entrants, setEntrants] = useState([]);
 
     const enterTournament = async () => {

@@ -28,7 +28,7 @@
   letter-spacing: -0.05em;
   font-weight: 700;
   text-align: center;
-  margin: 0 0 15px;
+  margin: 0 15px 15px;
 }
 
 .gradient {
@@ -75,9 +75,9 @@
 @media (min-width: 768px) {
   .cta {
     font-size: 100px;
-    line-height: 1;
+    line-height: 1.15;
     font-weight: 800;
-    margin: 0;
+    margin-bottom: 15px;
   }
 
   .info {
@@ -95,19 +95,19 @@
   justify-content: center;
   align-content: center;
   max-width: 400px;
-  width: 100%;
-  margin: 0 auto 128px;
+  width: 50%;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
   .button-row {
-    max-width: 480px;
+    max-width: 250px;
   }
 }
 
 @media (min-width: 1200px) {
   .button-row {
-    margin: 0;
+    margin: auto;
   }
 }
 

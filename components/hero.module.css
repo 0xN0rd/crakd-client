@@ -125,18 +125,18 @@
   align-content: center;
   max-width: 400px;
   width: 100%;
-  margin: 0 auto 128px;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
   .button-row {
-    max-width: 480px;
+    max-width: 250px;
   }
 }
 
 @media (min-width: 1200px) {
   .button-row {
-    margin: 0;
+    margin: auto;
   }
 }
 

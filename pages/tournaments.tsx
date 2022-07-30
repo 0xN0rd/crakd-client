@@ -5,7 +5,6 @@ import TournamentsGrid from '../components/tournaments-grid';
 import Header from '../components/header';
 import Layout from '../components/layout';
 
-import { getAllTournaments } from '../lib/cms-api';
 import { Tournament } from '../lib/types';
 import { META_DESCRIPTION } from '../lib/constants';
 
@@ -18,6 +17,7 @@ const TOURNAMENT: Tournament[] = [
         format: 'cash',
         length: 'daily',
         slug: 'daily-cash-game',
+        contract: '',
     },
     {
         name: 'Weekly Cash Game',
@@ -27,6 +27,7 @@ const TOURNAMENT: Tournament[] = [
         format: 'cash',
         length: 'daily',
         slug: 'weekly-cash-game',
+        contract: '',
     },
     {
         name: 'Daily GPP',
@@ -36,6 +37,7 @@ const TOURNAMENT: Tournament[] = [
         format: 'gpp',
         length: 'weekly',
         slug: 'daily-gpp',
+        contract: '',
     },
     {
         name: 'Weekly GPP',
@@ -45,6 +47,7 @@ const TOURNAMENT: Tournament[] = [
         format: 'gpp',
         length: 'weekly',
         slug: 'weekly-gpp',
+        contract: '',
     },
 ];
 

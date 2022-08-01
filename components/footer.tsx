@@ -13,6 +13,7 @@ export function CreatedByCrakd() {
         >
             <div className={styles['secondary-text']}>Created by </div>
             <CrakdLogo color={'#fff'} />
+            <span style={{ color: '#fff' }}>Crakd</span>
         </a>
     );
 }

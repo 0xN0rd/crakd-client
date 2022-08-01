@@ -2,11 +2,40 @@ type Props = { color: string; height?: number | string };
 
 export default function PlatformLogo({ color, height = 20 }: Props) {
   return (
-    <svg height={height} viewBox="0 0 283 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M141.04 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.46 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM248.72 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.45 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM200.24 34c0 6 3.92 10 10 10 4.12 0 7.21-1.87 8.8-4.92l7.68 4.43c-3.18 5.3-9.14 8.49-16.48 8.49-11.05 0-19-7.2-19-18s7.96-18 19-18c7.34 0 13.29 3.19 16.48 8.49l-7.68 4.43c-1.59-3.05-4.68-4.92-8.8-4.92-6.07 0-10 4-10 10zm82.48-29v46h-9V5h9zM36.95 0L73.9 64H0L36.95 0zm92.38 5l-27.71 48L73.91 5H84.3l17.32 30 17.32-30h10.39zm58.91 12v9.69c-1-.29-2.06-.49-3.2-.49-5.81 0-10 4-10 10V51h-9V17h9v9.2c0-5.08 5.91-9.2 13.2-9.2z"
-        fill={color}
-      />
+    <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="48"
+      height="48"
+      viewBox="0 0 48 48"
+    >
+      <linearGradient id="NLuo2Y0ix_NHwhlrzCyRta_rrLYeEp8OwnC_gr1" x1="24" x2="24" y1="24.082" y2="42.456" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stopColor="#c21734"></stop>
+        <stop offset=".429" stopColor="#ba1632"></stop>
+        <stop offset="1" stopColor="#a8142e"></stop>
+      </linearGradient>
+      <path fill="url(#NLuo2Y0ix_NHwhlrzCyRta_rrLYeEp8OwnC_gr1)" d="M45,27.5H3V33l0.003,0.001v0.53c-0.009,0.783,0.406,1.571,1.251,1.938l15.096,6.563 c2.966,1.289,6.334,1.289,9.299,0l15.096-6.563c0.845-0.368,1.26-1.155,1.251-1.938v-0.53L45,33V27.5z"></path>
+      <linearGradient id="NLuo2Y0ix_NHwhlrzCyRtb_rrLYeEp8OwnC_gr2" x1="23.015" x2="24.876" y1="17.954" y2="35.993" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stopColor="#f44f5a"></stop>
+        <stop offset="1" stopColor="#e52030"></stop>
+      </linearGradient>
+      <path fill="url(#NLuo2Y0ix_NHwhlrzCyRtb_rrLYeEp8OwnC_gr2)" d="M43.746,25.53L28.65,18.967c-2.966-1.289-6.334-1.289-9.299,0L4.254,25.53 c-0.857,0.372-1.268,1.176-1.247,1.97c-0.021,0.794,0.39,1.597,1.247,1.969l15.096,6.563c2.966,1.289,6.334,1.289,9.299,0 l15.096-6.563c0.857-0.372,1.268-1.176,1.247-1.969C45.013,26.706,44.602,25.903,43.746,25.53z"></path>
+      <linearGradient id="NLuo2Y0ix_NHwhlrzCyRtc_rrLYeEp8OwnC_gr3" x1="24" x2="24" y1="13.579" y2="28.267" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stopColor="#9fa2a6"></stop>
+        <stop offset="1" stopColor="#ddddde"></stop>
+      </linearGradient>
+      <path fill="url(#NLuo2Y0ix_NHwhlrzCyRtc_rrLYeEp8OwnC_gr3)" d="M24,29L24,29c-1.105,0-2-0.895-2-2V16h4v11C26,28.105,25.105,29,24,29z"></path>
+      <linearGradient id="NLuo2Y0ix_NHwhlrzCyRtd_rrLYeEp8OwnC_gr4" x1="22.948" x2="24.971" y1="5.285" y2="16.273" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stopColor="#f44f5a"></stop>
+        <stop offset="1" stopColor="#e52030"></stop>
+      </linearGradient>
+      <circle cx="24" cy="11" r="6" fill="url(#NLuo2Y0ix_NHwhlrzCyRtd_rrLYeEp8OwnC_gr4)"></circle>
+      <linearGradient id="NLuo2Y0ix_NHwhlrzCyRte_rrLYeEp8OwnC_gr5" x1="10.066" x2="11.132" y1="26.078" y2="29.569" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stopColor="#eaeaeb"></stop>
+        <stop offset="1" stopColor="#9fa2a6"></stop>
+      </linearGradient>
+      <ellipse cx="10.5" cy="27.5" fill="url(#NLuo2Y0ix_NHwhlrzCyRte_rrLYeEp8OwnC_gr5)" rx="2.5" ry="1.5"></ellipse>
     </svg>
   );
 }

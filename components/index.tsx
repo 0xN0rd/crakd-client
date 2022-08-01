@@ -9,11 +9,9 @@ export default function Home() {
     return (
         <Layout>
             <HomeContainer>
-                <>
                     <Hero />
                     <Feature />
                     <CallToAction />
-                </>
             </HomeContainer>
         </Layout>
     );
